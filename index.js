@@ -8,7 +8,7 @@ const app = express();
 app.use(cookieParser());
 
 // The actual target where your arcade games/content live
-const TARGET_URL = 'https://web.app';
+const TARGET_URL = 'https://frogiesarcade.net';
 
 // Configure the proxy middleware layer
 const proxySetting = createProxyMiddleware({
